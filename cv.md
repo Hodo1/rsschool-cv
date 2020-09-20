@@ -26,3 +26,12 @@
       if (target < data[middle].svgX) return binarySearch(data,target,start,middle);
     }
     let closestPoint = binarySearch(data,target, 0, data.length-1)   
+
+### Experience:
+ * [My first landing page](https://bitbucket.org/1HoDo1/test1/src/master/)
+
+### Education:
+* [HTML academy](https://htmlacademy.ru/)
+
+### English
+**Level - B2** 
