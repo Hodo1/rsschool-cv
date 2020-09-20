@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;700&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="style.css">
+    <title>My CV</title>
+</head>
+<body>
+  <main>
+      <div class="container">
+    <img class="image" src="images/image.jpg" alt="image" height="350px" width="600px">
+    <h1>Vladyslav Rudkovskyi</h1>
+    <section>
+        <h2>Contacts</h2>
+        <ul>
+            <li><a class="link" href="tel:0668488032">Number</a></li>
+            <li><a class="link" href="barabashkavq2000@gmail.com">E-mail</a></li>
+            <li><a class="link" href="https://t.me/HoDo_HoDo"></a>Telegram</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Summary</h2>
+        <p><strong><em>I will become a professional Front-End developer.</em></strong></p>
+        <p><strong>I will do whatever it takes to achieve this goal. In the IT field, I must always learning new. This is a rapidly developing field, and in order to improve the quality of my work, you always need to get new knowledge.</strong></p>
+    </section>
+    <section>
+    <h2>Skills</h2>
+    <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SASS</li>
+        <li>Flexbox</li>
+        <li>Git</li>
+    </ul>
+    </section>
+    <div class="code">
+        <h2>Code Example</h2>
+        <code><pre>
+            const binarySearch = (data, target, start, end) => {
+            if(end < 1) return data[0];
+            const middle = Math.floor((start + (end - start)/2);
+            if (target == data[middle].svgX) return data[middle];
+            if (end — 1 === start) return Math.abs(data[start].svgX — target) > Math.abs(data[end].svgX — target) ? data[end] : data[start];
+            if (target > data[middle].svgX) return binarySearch(data,target,middle,end);
+            if (target < data[middle].svgX) return binarySearch(data,target,start,middle);
+            }
+            let closestPoint = binarySearch(data,target, 0, data.length-1)
+        </pre></code>
+    </div>
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li><a class="link" href="https://bitbucket.org/1HoDo1/test1/src/master/">My first landing page</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Education:</h2>
+        <ul>
+            <li><a class="link" href="https://htmlacademy.ru/">HTML academy</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>English</h2>
+        <p>Level - B2</p>
+    </section>
+      </div>
+  </main>
+</body>
+</html>

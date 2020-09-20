@@ -1,0 +1,29 @@
+*{box-sizing:border-box;}
+body{
+    font-family: 'Kufam', cursive;
+    font-size:16px;
+    color:gray;
+    background: lemonchiffon;
+    margin:0;
+}
+.container{
+    max-width:1040px;
+    margin:0 auto;
+    width:100%;
+}
+
+header{
+    padding:15px 25px;
+    background:#33FFB7;
+    text-align: center;
+}
+main{
+    padding:20px;
+}
+.images {
+    text-align:center;
+}
+.link {
+    text-decoration: none;
+    color: lightskyblue;
+}
