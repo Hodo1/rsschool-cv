@@ -1,2 +1,2 @@
 # rsschool-cv
-My CV
+[My CV](https://Hodo1.io/rsschool-cv/cv)
