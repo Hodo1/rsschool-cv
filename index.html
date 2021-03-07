@@ -36,9 +36,9 @@
     </section>
     <div class="code">
         <h2>Code Example</h2>
-        <code><pre>
+        <code>
             const binarySearch = (data, target, start, end) => {
-            if(end < 1) return data[0];
+            if(end <1) return data[0];
             const middle = Math.floor((start + (end - start)/2);
             if (target == data[middle].svgX) return data[middle];
             if (end — 1 === start) return Math.abs(data[start].svgX — target) > Math.abs(data[end].svgX — target) ? data[end] : data[start];
@@ -46,7 +46,7 @@
             if (target < data[middle].svgX) return binarySearch(data,target,start,middle);
             }
             let closestPoint = binarySearch(data,target, 0, data.length-1)
-        </pre></code>
+        </code>
     </div>
     <section>
         <h2>Experience</h2>
